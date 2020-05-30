@@ -1,0 +1,101 @@
+.footer {
+  background-image: url('static/footer.jpg');
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.body, html {
+  background: #fcc812;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 1000px;
+  margin: auto;
+  box-shadow: 1em 0 .4em olive, -1em 0 .4em olive, 0 1em .4em olive;
+  background-color: #fff1bf;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 1em;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-sizing: border-box;
+}
+
+.ip {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}
+
+.description {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.name {
+  text-align: center;
+  color: red;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.address {
+  text-align: center;
+}
+
+.block-title {
+  /* color: red; */
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.block-content {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.phone {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.phone a {
+  color: red;
+  text-decoration: none;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+
+@media (max-width: 1000px) {
+  .content {
+    width: 100%;
+    box-shadow: none;
+  }
+  .block-content {
+    font-size: 18px;
+  }
+  .block-title {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1001px) {
+  .ceh {
+    float: right;
+  }
+}
