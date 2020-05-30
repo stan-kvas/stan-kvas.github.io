@@ -94,6 +94,18 @@
   }
 }
 
+@media (max-width: 600px) {
+  .phone {
+    font-size:25px;
+  }
+}
+
+@media (max-width: 350px) {
+  .phone {
+    font-size:20px;
+  }
+}
+
 @media (min-width: 1001px) {
   .ceh {
     float: right;
