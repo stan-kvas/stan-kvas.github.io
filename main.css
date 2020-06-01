@@ -6,10 +6,19 @@
 }
 
 .body, html {
-  background: #fff011;
+  background: #F5F5DC;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+}
+
+.page {
+  background: #fff011;
+  padding: 0;
+  margin: 10px;
+  overflow-x: hidden;
+  border-radius: 30px;
+  margin-bottom: 40px;
 }
 
 .content {
@@ -35,9 +44,15 @@
 .description {
   text-align: center;
   color: red;
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 5px;
   margin-bottom: 20px;
+  text-shadow:
+  -1px -1px 0 #555,
+   1px -1px 0 #555,
+  -1px  1px 0 #555,
+   1px  1px 0 #555;
+   font-weight: bold;
 }
 
 .name {
@@ -49,25 +64,21 @@
   font-weight: bold;
 }
 
-.address {
-  text-align: center;
-}
-
 .block-title {
   color: red;
   font-size: 40px;
-  margin-top: 40px;
   margin-bottom: 10px;
+  margin-top: 10px;
   font-weight: bold;
   text-shadow:
    -1px -1px 0 #555,
     1px -1px 0 #555,
    -1px  1px 0 #555,
     1px  1px 0 #555;
+  text-align: center;
 }
 
 .block-content {
-  padding-left: 15px;
   font-size: 20px;
 }
 
@@ -112,12 +123,27 @@
   }
 }
 
+@media (max-width: 402px) {
+  .address {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 376px) {
+  .address {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 365px) {
   .phone {
     font-size:20px;
   }
   .description {
-    font-size: 35px;
+    font-size: 40px;
+  }
+  .address {
+    font-size: 14px;
   }
 }
 
