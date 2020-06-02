@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'IzhitsaC';
+	src: url('fonts/izhitsac.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/izhitsac.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/izhitsac.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/izhitsac.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/izhitsac.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/izhitsac.svg#izhitsac') format('svg'); /* Chrome < 4, Legacy iOS */
+}
